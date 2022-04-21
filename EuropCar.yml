@@ -1,0 +1,16 @@
+sping:
+    jpa:
+        database-platform: org.hibernate.dialect.MySQLDialect
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: angeloa!
+        url: jdbc:mysql://212.131.189.19:30016/angeloa
+        username: angeloa
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
